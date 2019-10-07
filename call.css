@@ -1,0 +1,51 @@
+/*the background*/
+body {
+  padding: 0px;
+  margin: 0px;
+  background: linear-gradient(to right, orange, brown)
+}
+/*the buttons*/
+.onn {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: minmax(80px, auto) repeat(5, 80px);
+}
+.onn > button {
+  font-size: 2rem;
+  border: 1px solid white;
+  background-color: lightskyblue;
+}
+.onn > button:hover {
+  background-color: whitesmoke;
+}
+.des {
+  grid-column: span 2;
+}
+
+/*.opera {
+  grid-column: 1 / -1;
+  background-color: rgb(31, 28, 28);
+  color: white;
+  display: flex;
+  padding: 10px;
+  align-items: flex-end;
+  justify-content: space-around; 
+  flex-direction: column;
+}*/
+/*the display*/
+.opera {
+  display: grid;
+  height: 100px;
+  width: 320px;
+  box-align: center;
+  grid-column: 1 / -1;
+  font-size: 1rem;
+  border: 0px solid white;  
+}
+.dee {
+  font-size: 26.05px;
+}
+ 
